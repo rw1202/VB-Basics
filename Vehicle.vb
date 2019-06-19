@@ -7,7 +7,7 @@
         Audi._ProductNumber= 2
         Audi._SellStartDate= DateTime.Now
 
-        Console.WriteLine(Audi._Name & " " & Audi._ListPrice)
+        Console.WriteLine(Audi._Name & " " &"£"& Audi._ListPrice &" "& Audi._SellStartDate)
     End Sub
 
     Public Shared Sub Mercedes()
@@ -17,7 +17,7 @@
         Mercedes._Name= "Mercedes"
         Mercedes._ProductNumber= 3
         Mercedes._SellStartDate= DateTime.Now
-        Console.WriteLine(Mercedes._Name & " " & Mercedes._ListPrice )
+        Console.WriteLine(Mercedes._Name & " " &"£"& Mercedes._ListPrice &" "& Mercedes._SellStartDate)
     End Sub
 
     Public Shared Sub TenSpBike()
@@ -27,7 +27,7 @@
         TenSpBike._Name= "TenSpBike"
         TenSpBike._ProductNumber= 1
         TenSpBike._SellStartDate= DateTime.Now
-        Console.WriteLine(TenSpBike._Name & " " & TenSpBike._ListPrice )
+        Console.WriteLine(TenSpBike._Name & " " &"£"& TenSpBike._ListPrice & " " & TenSpBike._SellStartDate)
     End Sub
 
 
