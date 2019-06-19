@@ -1,7 +1,10 @@
 ﻿Module MainModule1
   
     Sub Main()
-       TenSpBike.Main()
+       Vehicle.TenSpBike()
+        Vehicle.Mercedes()
+        Vehicle.Audi()
+        Console.ReadKey()
     End Sub
 
 End Module
