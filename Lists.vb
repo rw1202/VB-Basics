@@ -13,15 +13,17 @@
                         }        
         }
         
-        Console.WriteLine(products.Exists(Function(p) p.ProductID= 8))
-'       Above should return true
-        Console.WriteLine(products.Exists(Function(p) p.ProductID= 9))
-'       Above should return false
-      
+'        Console.WriteLine(products.Exists(Function(p) p.ProductID= 8))
+''       Above should return true
+'        Console.WriteLine(products.Exists(Function(p) p.ProductID= 9))
+''       Above should return false
+''        Count, Find (Key), Remove At (index), Clear, Sum, Min value, Max Value,
+''        Average can also be used
        
-   
-        Console.ReadKey()
+   Console.ReadKey()
+      
         Return products
+        
     End Function
 
 End Class

@@ -10,7 +10,10 @@
         ' ListsFunctions.LoadProductsArrayA()
         ' ListsFunctions.LoadProductsArrayB()
         ' ListsFunctions.LoadProductsArrayL()
-
-    End Sub
+        'Dim loopProds As String= Loops.DewItWhile()
+        'Dim loopProds1 As String= Loops.DewIt()
+'         
+       Dim loopPods2 As String= Loops.ForE()
+   End Sub
     
     End Module
