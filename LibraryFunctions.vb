@@ -1,6 +1,6 @@
-﻿Public Class LibraryFunctions1
+﻿Public Class LibraryFunctions
     Public Shared Function LibraryFunctions() As Dictionary(Of Integer, Product)
-    Dim products = ListsFunctions.LoadProductsLib()
+    Dim products = ArraysAnLibraryFunctions.LoadProductsLib()
 '        Sum of all List Prices 
         Console.WriteLine(
             products.Sum(Function(p)
@@ -26,5 +26,6 @@
     Console.WriteLine(products.Count)
 
     Console.ReadKey()
-        End Function 
+
+    End Function
 End Class

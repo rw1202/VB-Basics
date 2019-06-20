@@ -4,16 +4,12 @@
    Public Sub Main()
 
 
-       Dim products = ListsFunctions.LoadProductsLib()
-       Dim prods =LibraryFunctions1.LibraryFunctions()
-
-   
-
-'     
-
-'       ListsFunctions.LoadProductsArrayA()
-'       ListsFunctions.LoadProductsArrayB()
-'       ListsFunctions.LoadProductsArrayL()
+        ' Dim products = ArraysAnLibraryFunctions.LoadProductsLib()
+        ' Dim prods =LibraryFunctions.LibraryFunctions()
+        ' Lists.LoadProducts()
+        ' ListsFunctions.LoadProductsArrayA()
+        ' ListsFunctions.LoadProductsArrayB()
+        ' ListsFunctions.LoadProductsArrayL()
 
     End Sub
     
