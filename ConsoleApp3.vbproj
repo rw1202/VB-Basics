@@ -88,6 +88,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonBase.vb" />
+    <Compile Include="Customer.vb" />
     <Compile Include="Vehicle.vb" />
     <Compile Include="Product.vb" />
     <Compile Include="MainModule1.vb" />
