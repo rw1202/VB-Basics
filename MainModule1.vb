@@ -5,9 +5,15 @@
 
 
        Dim products = ListsFunctions.LoadProductsLib()
-       ListsFunctions.LoadProductsArrayA()
-       ListsFunctions.LoadProductsArrayB()
-       ListsFunctions.LoadProductsArrayL()
+       Dim prods =LibraryFunctions1.LibraryFunctions()
+
+   
+
+'     
+
+'       ListsFunctions.LoadProductsArrayA()
+'       ListsFunctions.LoadProductsArrayB()
+'       ListsFunctions.LoadProductsArrayL()
 
     End Sub
     
